@@ -25,7 +25,7 @@ Sample Clothing Store - Home
                       <img src="/static/img/{{shirts[i]["image"]}}" class="shirt" alt="" />
                       <h5 class="card-text">{{shirts[i]["samplename"]}}</h5>
                       {% if shirts[i]["onSale"] %}
-                        <img src="/static/img/sale-icon.png" width="26px" />
+                        <img src="/static/img/sale.jpg" width="26px" />
                         <h4 class="card-text price" style="color:red; display:inline">{{ '{:,.2f}'.format(shirts[i]["onSalePrice"]) }}</h4>
                       {% else %}
                         <h4 class="card-text price">{{ '{:,.2f}'.format(shirts[i]["price"]) }}</h4>
